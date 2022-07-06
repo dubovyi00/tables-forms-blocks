@@ -1,0 +1,46 @@
+body {
+  background-color: #dddddd;
+}
+
+div.card {
+  display: inline-block;
+  width: 15%;
+  margin-right: 1.5%;
+  box-shadow: 1px 1px 3px black;
+  
+
+}
+
+div.num {
+  border-radius: 2% 2% 0% 0%;
+  font-family: sans-serif;
+  font-size: 8em;
+  text-align: center;
+  padding-top: 16%;
+  padding-bottom: 16%;
+
+}
+
+div.descr {
+  border-radius: 0% 0% 2% 2%;
+  font-family: sans-serif;
+  font-size: 1.3em;
+  text-align: left;
+  background-color: white;
+  padding: 10% 2% 10% 4%;
+
+}
+
+.green {
+  background-color: rgb(38, 159, 93);
+  color: white;
+}
+
+.cyan {
+  background-color: rgb(101, 194, 220);
+}
+
+.orange {
+  background-color: rgb(238, 188, 64);
+  color: white;
+}
