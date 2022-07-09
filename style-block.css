@@ -39,11 +39,11 @@ div.descr {
   z-index: 1;
 }
 
-div.refresh {
+button.refresh {
   color: white;
   font-size: 2em;
   text-align: center;
-  line-height: 1.5em;
+  line-height: 1.3em;
   background-color: rgb(77, 136, 238);
   position: absolute;
   bottom: 15%;
@@ -52,6 +52,11 @@ div.refresh {
   width: 1.5em;
   z-index: 2;
   border-radius: 1em;
+  border: none;
+}
+
+button.refresh:hover {
+  background-color: rgb(104, 154, 241);
 }
 
 .green {
