@@ -7,21 +7,21 @@
   <body>
   <form>
     <label for="name">Имя:</label>
-    <input type="text" placeholder="Степан">
+    <input type="text" placeholder="Степан" required>
 	
-    <input type="radio" name="lang" id="java" value="Java"><label for="java" class="selection">Java</label>
+    <input type="radio" name="lang" id="java" value="Java" checked required><label for="java" class="selection">Java</label>
     <input type="radio" name="lang" id="cpp" value="C++"><label for="cpp" class="selection">C++</label>
-	<input type="radio" name="lang" id="python" value="Python"><label for="python" class="selection">Python</label>
+	  <input type="radio" name="lang" id="python" value="Python"><label for="python" class="selection">Python</label>
     <input type="radio" name="lang" id="php" value="PHP"><label for="php" class="selection">PHP</label>
     <input type="radio" name="lang" id="js" value="JavaScript"><label for="js" class="selection">JavaScript</label>
 	
     <label for="extra-info">Дополнительная информация: </label>
-    <textarea cols="30" rows="4" placeholder="Есть опыт программирования на Java"></textarea>
+    <textarea cols="30" rows="4" placeholder="Есть опыт программирования на Java" required></textarea>
 	
     <label for="pass">Секретное слово: </label>
-    <input type="password" name="pass">
+    <input type="password" name="pass" required>
 	
-    <input type="checkbox" name="check"><label for="check" class="selection">С правилами ознакомился и согласен</label>
+    <input type="checkbox" name="check" required><label for="check" class="selection">С правилами ознакомился и согласен</label>
     <br>
 	
     <input type="submit" value="Отправить">
